@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/GraphButton"
+        android:layout_width="299dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="223dp"
+        android:background="#70b53f"
+        android:text="@string/SPENDING_GRAPH" />
+
+
+    <Button
+        android:id="@+id/BudgetButton"
+        android:layout_width="301dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="?attr/colorPrimary"
+        android:text="@string/BUDGET" />
+
+
+    <Button
+        android:id="@+id/CouponButton"
+        android:layout_width="298dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:background="#ee8200"
+        android:text="COUPONS" />
+
+
+    <Button
+        android:id="@+id/settingsbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="SETTINGS" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:text="Sign Out" />
+
+</RelativeLayout>

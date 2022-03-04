@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BudgetActivity">
+
+    <Button
+        android:id="@+id/spendinghistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Spending History" />
+
+    <Button
+        android:id="@+id/clearbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spendinghistory"
+        android:layout_below="@+id/remainderfield"
+        android:text="CLEAR ALL" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DOLLARS" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spentmoney"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DOLLARS" />
+
+    <EditText
+        android:id="@+id/budgettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter Budget"
+        android:digits="0123456789."
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/spentmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="Spent"
+        android:digits="0123456789."
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/remainderfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Remainder"
+        android:digits="0123456789."
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DOLLARS" />
+
+    <Button
+        android:id="@+id/remainderbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/remainderfield"
+        android:text="REMAINDER" />
+
+
+</RelativeLayout>
